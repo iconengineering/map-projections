@@ -460,10 +460,10 @@
 
 		// Arrow controls
 		createSingletonNode( dom.wrapper, 'aside', 'controls',
-			'<button class="navigate-left" aria-label="previous slide"></button>' +
-			'<button class="navigate-right" aria-label="next slide"></button>' +
-			'<button class="navigate-up" aria-label="above slide"></button>' +
-			'<button class="navigate-down" aria-label="below slide"></button>' );
+			'<div class="navigate-left" aria-label="previous slide"></div>' +
+			'<div class="navigate-right" aria-label="next slide"></div>' +
+			'<div class="navigate-up" aria-label="above slide"></div>' +
+			'<div class="navigate-down" aria-label="below slide"></div>' );
 
 		// Slide number
 		dom.slideNumber = createSingletonNode( dom.wrapper, 'div', 'slide-number', '' );
